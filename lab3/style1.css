@@ -1,0 +1,54 @@
+/* 1) */
+
+.color-change {
+  background-color: #f7f7f7;
+}
+
+/* media queries */
+
+@media (max-width: 1440px) {
+  .color-change {
+    background-color: darkred;
+  }
+}
+
+@media (max-width: 1280px) {
+  .color-change {
+    background-color: darkgreen;
+  }
+}
+
+@media (max-width: 1024px) {
+  .color-change {
+    background-color: darkblue;
+  }
+}
+
+@media (max-width: 800px) {
+  .color-change {
+    background-color: brown;
+  }
+}
+
+@media (max-width: 768px) {
+  .color-change {
+    background-color: lightyellow;
+  }
+}
+
+@media (max-width: 600px) {
+  .color-change {
+    background-color: lightgreen;
+  }
+}
+@media (max-width: 480px) {
+  .color-change {
+    background-color: lightblue;
+  }
+}
+
+@media (max-width: 320px) {
+  .color-change {
+    background-color: black;
+  }
+}

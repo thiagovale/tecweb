@@ -1,0 +1,61 @@
+/* 4) */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-wrapper {
+  display: inline-block;
+  margin: 0px;
+  width: 100vw;
+}
+
+.nav-wrapper a {
+  display: block;
+  margin: 20px;
+  text-align: center;
+  color: black;
+  border: solid cyan;
+  padding: 20px;
+  background: lightcyan;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.content-wrapper {
+  margin: 0px;
+  display: inline-block;
+  width: 100vw;
+}
+
+img {
+  display: none;
+}
+
+/* media queries */
+
+@media (min-width: 768px) {
+  .nav-wrapper {
+    width: 29vw;
+  }
+  .content-wrapper {
+    width: 70vw;
+  }
+}
+
+@media (min-width: 1280px) {
+  .nav-wrapper {
+    width: 15vw;
+  }
+  .content-wrapper {
+    width: 48vw;
+  }
+  .img-wrapper {
+    display: inline-block;
+    width: 35vw;
+  }
+  img {
+    display: block;
+  }
+}

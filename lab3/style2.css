@@ -1,0 +1,13 @@
+/* 2) */
+
+.landscape {
+  display: none;
+}
+
+/* media queries */
+
+@media (orientation: landscape) {
+  .landscape {
+    display: block;
+  }
+}
