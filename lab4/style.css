@@ -1,0 +1,150 @@
+.container {
+  width: 80%;
+  height: 300px;
+  border: 2px solid blue;
+  margin: 20px auto;
+  display: flex;
+  gap: 20px;
+}
+
+.item {
+  width: 75px;
+  height: 75px;
+  background: lightblue;
+  text-align: center;
+  border: 1px solid black;
+}
+
+#div1 {
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#div2 {
+  flex-direction: row;
+}
+
+#div3 {
+  flex-direction: row-reverse;
+}
+
+#div4 {
+  justify-content: center;
+}
+
+#div5 {
+  flex-wrap: wrap;
+}
+
+#div6 {
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+#div6 .item:nth-child(1) {
+  order: 1;
+}
+
+#div7 {
+  justify-content: space-around;
+}
+
+#div8 {
+  justify-content: space-between;
+}
+
+#div9 {
+  justify-content: center;
+  align-items: center;
+}
+
+#div10 .item:nth-child(1) {
+  height: 100px;
+}
+
+#div10 .item:nth-child(3) {
+  height: 120px;
+}
+
+#div10 {
+  justify-content: center;
+  align-items: baseline;
+}
+
+#div11 {
+  background: grey;
+  justify-content: center;
+  align-items: stretch;
+}
+
+#div12 .item:nth-child(2) {
+  background: red;
+}
+
+#div13 .item:nth-child(2) {
+  background: red;
+  order: -1;
+}
+
+#div14 .item:nth-child(2) {
+  background: red;
+}
+
+#div14 .item:nth-child(3) {
+  order: -1;
+}
+
+#div15 {
+  justify-content: center;
+  align-items: center;
+}
+
+#div15 .item:nth-child(2) {
+  background: red;
+  align-self: flex-start;
+}
+
+#div16 {
+  justify-content: center;
+  align-items: center;
+}
+
+#div16 .item:nth-child(2) {
+  background: red;
+  align-self: flex-end;
+}
+
+#div17 {
+  background: grey;
+  justify-content: center;
+  align-items: center;
+}
+
+#div17 .item:nth-child(2) {
+  background: red;
+  align-self: stretch;
+}
+
+#div18 {
+  justify-content: center;
+  align-items: center;
+}
+
+#div18 .item:nth-child(2) {
+  flex-grow: 2;
+  background: red;
+}
+
+#div19 {
+  justify-content: center;
+  align-items: center;
+}
+
+#div19 .item:nth-child(1) {
+  flex-grow: 2;
+}
+
+#div19 .item:nth-child(3) {
+  flex-grow: 2;
+}
